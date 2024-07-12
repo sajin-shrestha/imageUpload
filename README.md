@@ -41,11 +41,20 @@ To run the application locally, follow these steps:
 
 ### Setup
 
-1. **Clone the repository:**
+0. **Clone the repository:**
 
    ```bash
    git clone https://github.com/your-username/image-upload.git
-   cd image-upload
+   cd imageUpload
+
+   ```
+
+## For Backend
+
+1. **Navigate to backend folder:**
+
+   ```bash
+   cd backend
 
    ```
 
@@ -58,3 +67,48 @@ To run the application locally, follow these steps:
     DB_NAME=<database-name>
     DB_PORT=5432
    ```
+
+3. **Install Dependencies:**
+
+   ```bash
+   go mod tidy
+
+   ```
+
+4. **Start the backend server:**
+   ```bash
+   go run main.go
+   ```
+
+## For Frontend
+
+1. **Navigate to the frontend/ directory and set up the React environment**
+
+   ```bash
+   cd frontend
+
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+    npm install
+   ```
+
+3. **Start the frontend development server:**
+
+   ```bash
+   npm run dev
+
+   ```
+
+4. **Access the Application**
+
+   ```bash
+   Open your browser and visit http://localhost:3000 to access the application.
+
+   ```
+
+### Contributing
+
+Contributions are welcome! Fork the repository, make your changes, and submit a pull request. Please follow the existing code style and conventions.
