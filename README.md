@@ -44,7 +44,7 @@ To run the application locally, follow these steps:
 0. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/image-upload.git
+   git clone https://github.com/sajin-shrestha/imageUpload.git
    cd imageUpload
 
    ```
