@@ -15,6 +15,7 @@ const App = () => {
     axios
       .get('http://localhost:8080/testimonials')
       .then((response) => {
+        console.log(response.data)
         setTestimonials(response.data)
       })
       .catch((error) => {
@@ -53,7 +54,7 @@ const App = () => {
             className="bg-white shadow-md rounded p-4"
           >
             <img
-              src={`http://localhost:8080${testimonial.image}`}
+              src={`http://localhost:8000/${testimonial.image}`}
               alt={testimonial.title}
               className="w-full h-48 object-cover rounded"
             />
